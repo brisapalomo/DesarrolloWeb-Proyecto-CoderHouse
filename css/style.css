@@ -58,15 +58,15 @@ h1,
 .info {
   text-align: center;
   padding: 40px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 20px
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 .info-item {
   max-width: 150px;
   width: 100%;
+  justify-self: center
 }
 
 .info-item img{
