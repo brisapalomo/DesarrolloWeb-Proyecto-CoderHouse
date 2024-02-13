@@ -299,4 +299,9 @@ footer {
     height: 70px;
   }
 
+  .featured-products-item .product-image{
+    width: 200px;
+    height: 200px;
+  }
+
 }
