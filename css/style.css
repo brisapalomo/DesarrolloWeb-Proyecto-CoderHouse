@@ -40,10 +40,16 @@ a {
 
 .nav-link {
   font-weight: bold;
+  padding: 3px;
 }
 
 .nav-link:hover {
   color: #ffffff;
+}
+
+.is-active {
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
 }
 
 .dropdown-menu {
@@ -244,7 +250,7 @@ footer {
   border-top: 1px solid black;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
 
   nav {
     display: none;
